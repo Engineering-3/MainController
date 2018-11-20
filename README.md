@@ -9,7 +9,7 @@ This is the LabVIEW Control Interface for the RCM Control Stack.
 Version History
 ---------------
 
-* [Version v5.3.2] (Aug 27, 2018)
+* [Version v5.3.2]
   - Changed "Run" Title Bar from SRV MainController (old Surveyor naming convention) to RCM MainController (new E3 naming convention)
 
 * [Version v5.3.1]
