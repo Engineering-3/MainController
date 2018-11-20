@@ -11,10 +11,12 @@ Version History
 
 * [Version v5.3.2]
   - Changed "Run" Title Bar from SRV MainController (old Surveyor naming convention) to RCM MainController (new E3 naming convention)
-
+  - Minimum supported BFin firmware : test60 or above
+  
 * [Version v5.3.1]
   - Changed "Open" Title Bar from SRV MainController (old Surveyor naming convention) to RCM MainController (new E3 naming convention)
-
+  - Minimum supported BFin firmware : test60 or above
+  
 * [Version v5.3.0]
   - Adding the ability to work with new sensors (IMU and Thermal)
   - Added check boxes to Analog SensorConfig for I2C Repeated Start, Byte Swap, and Signed/Unsigned
@@ -22,6 +24,8 @@ Version History
   - Identified a Log Overrun Issue/Pushed to later to address (May 18, 2018)
   - Implemented a new sensors 16-bit ID in the response for all commands (obsoletes the old 'Constant Command' scheme)
   - New 16-bit ID allows RCMx1 digital ports 23-28 to be identified/displayed individually through SensorConfig/SensorView
+  - Implemented a new sensors 16-bit ID in the response for all commands (obsoletes the old 'Constant Command' scheme)
+  - Minimum supported BFin firmware : test60 or above
 
 * [Version v5.2.1]
   - Added Calculated SensorConfig type which lets Multiple SensorView elements respond to a single SensorConfig value
