@@ -1,0 +1,88 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>14.0.1f11</Version>
+<Cluster>
+<Name>System Config</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>SRV IP Address</Name>
+<Val>192.168.1.44</Val>
+</String>
+<U32>
+<Name>Video Stream Rate Period (ms)</Name>
+<Val>250</Val>
+</U32>
+<Boolean>
+<Name>Enable Diagnostic Log</Name>
+<Val>0</Val>
+</Boolean>
+<Cluster>
+<Name>Watchdog 1 Config</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>Watchdog Name</Name>
+<Val></Val>
+</String>
+<DBL>
+<Name>Watchdog Period (s)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Cluster>
+<Name>Watchdog Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Watchdog 2 Config</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>Watchdog Name</Name>
+<Val></Val>
+</String>
+<DBL>
+<Name>Watchdog Period (s)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Cluster>
+<Name>Watchdog Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+</Cluster>
+<Path>
+<Name>Sensor Window Filepath</Name>
+<Val>C:\Users\t1jump\Desktop\Engineering3\MainController\MC 5.3.6\MainController-master_MC_v5.3.6_2019-09-15\MainController-master\MC_Sensor View Window.vit</Val>
+</Path>
+</Cluster>
+</LVData>

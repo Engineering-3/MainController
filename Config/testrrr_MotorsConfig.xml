@@ -1,0 +1,2773 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>14.0.1f11</Version>
+<Array>
+<Name>Motor Control Config</Name>
+<Dimsize>35</Dimsize>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button A1</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button A2</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button A3</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button A4</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button A5</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button A6</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button A7</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button B1</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button B2</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button B3</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button B4</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button B5</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button B6</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button B7</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button C1</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button C2</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button C3</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button C4</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button C5</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button C6</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button C7</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button D1</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button D2</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button D3</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button D4</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button D5</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button D6</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button D7</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button E1</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button E2</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button E3</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button E4</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button E5</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button E6</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Motor Control Button</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Button Name</Name>
+<Val>Button E7</Val>
+</String>
+<String>
+<Name>Button Label</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Motor Type</Name>
+<Choice>Servo</Choice>
+<Choice>Legos</Choice>
+<Choice>Shared Var</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Press Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Release Cmds</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Motor Control Commands Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Motor Control Command</Name>
+<NumElts>4</NumElts>
+<U8>
+<Name>I2C Address</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val></Val>
+</U8>
+<U8>
+<Name>Value</Name>
+<Val></Val>
+</U8>
+<Boolean>
+<Name>Active</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<U16>
+<Name>Icon</Name>
+<Val>9</Val>
+</U16>
+</Cluster>
+</Array>
+</LVData>

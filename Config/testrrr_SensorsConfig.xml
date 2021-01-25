@@ -1,0 +1,7736 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>14.0.1f11</Version>
+<Array>
+<Name>Sensors Config</Name>
+<Dimsize>48</Dimsize>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>0</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>1</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>2</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>3</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>4</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>5</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>6</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>7</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>8</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>9</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>10</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>11</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>12</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>13</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>14</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>15</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>16</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>17</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>18</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>19</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>20</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>21</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>22</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>23</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>24</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>25</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>26</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>27</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>28</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>29</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>30</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>31</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>32</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>33</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>34</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>35</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>36</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>37</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>38</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>39</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>40</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>41</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>42</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>43</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>44</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>45</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>46</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Sensor Config</Name>
+<NumElts>21</NumElts>
+<String>
+<Name>Name</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>A/D</Name>
+<Choice>Digital</Choice>
+<Choice>Analog</Choice>
+<Choice>PicoC Shared</Choice>
+<Choice>Calculated</Choice>
+<Val>0</Val>
+</EW>
+<U8>
+<Name>I2C Address</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Register</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Channel</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>Digital Mask</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>Units</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Sampling Mode</Name>
+<Choice>Polled</Choice>
+<Choice>Streaming</Choice>
+<Val>0</Val>
+</EW>
+<U32>
+<Name>Sample Period (ms)</Name>
+<Val>0</Val>
+</U32>
+<String>
+<Name>Formula</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Sensor View Config</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Sensor Name</Name>
+<Choice>Gauge 01</Choice>
+<Choice>Gauge 02</Choice>
+<Choice>Gauge 03</Choice>
+<Choice>Gauge 04</Choice>
+<Choice>Meter 01</Choice>
+<Choice>Meter 02</Choice>
+<Choice>Meter 03</Choice>
+<Choice>Meter 04</Choice>
+<Choice>Numeric 01</Choice>
+<Choice>Numeric 02</Choice>
+<Choice>Numeric 03</Choice>
+<Choice>Numeric 04</Choice>
+<Choice>Numeric 05</Choice>
+<Choice>Numeric 06</Choice>
+<Choice>Numeric 07</Choice>
+<Choice>Numeric 08</Choice>
+<Choice>Boolean 01</Choice>
+<Choice>Boolean 02</Choice>
+<Choice>Boolean 03</Choice>
+<Choice>Boolean 04</Choice>
+<Choice>Boolean 05</Choice>
+<Choice>Boolean 06</Choice>
+<Choice>Boolean 07</Choice>
+<Choice>Boolean 08</Choice>
+<Choice>Boolean 09</Choice>
+<Choice>Boolean 10</Choice>
+<Choice>Boolean 11</Choice>
+<Choice>Boolean 12</Choice>
+<Choice>Boolean 13</Choice>
+<Choice>Boolean 14</Choice>
+<Choice>Boolean 15</Choice>
+<Choice>Boolean 16</Choice>
+<Choice>Boolean 17</Choice>
+<Choice>Boolean 18</Choice>
+<Choice>Boolean 19</Choice>
+<Choice>Boolean 20</Choice>
+<Choice>Boolean 21</Choice>
+<Choice>Boolean 22</Choice>
+<Choice>Boolean 23</Choice>
+<Choice>Boolean 24</Choice>
+<Choice>Boolean 25</Choice>
+<Choice>Boolean 26</Choice>
+<Choice>Boolean 27</Choice>
+<Choice>Boolean 28</Choice>
+<Choice>Boolean 29</Choice>
+<Choice>Boolean 30</Choice>
+<Choice>Boolean 31</Choice>
+<Choice>Boolean 32</Choice>
+<Val>47</Val>
+</EW>
+<DBL>
+<Name>Minimum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Maximum</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Boolean>
+<Name>Active</Name>
+<Val>0</Val>
+</Boolean>
+<EW>
+<Name>PicoC Shared Var Type</Name>
+<Choice>String</Choice>
+<Choice>Integer</Choice>
+<Choice>Float</Choice>
+<Val>1</Val>
+</EW>
+<U8>
+<Name>Index</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Stream Multiple?</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Index End</Name>
+<Val>255</Val>
+</U8>
+<EW>
+<Name>Bytes</Name>
+<Choice>1 Byte</Choice>
+<Choice>2 Bytes</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Source Sensor Name</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Repeat Start</Name>
+<Val>0</Val>
+</Boolean>
+<EL>
+<Name>Integer Word Type</Name>
+<Choice>Unsigned</Choice>
+<Choice>Signed</Choice>
+<Val>0</Val>
+</EL>
+<Boolean>
+<Name>Byte Swap</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+</Array>
+</LVData>
