@@ -9,13 +9,36 @@ This is the LabVIEW Control Interface for the RCM Control Stack.
 Version History
 ---------------
 
+* [Version v5.3.6]
+  - Updated video processing to work on both PC and Mac platforms.
+  - Changed Error 56 wording to clarify this error throws when there is no connection to the RCM-BFin (even though there may be connection to the RCM-Com radio).
+  - Reduced delay between activating Run and Error 56.
+  - Changed “Connected” signal on MainController Run page to only illuminate if there is full connection to the RCM-BFin/no Error 56.
+  - Minimum supported BFin firmware: test64 or above.
+ 
+* [Version v5.3.5]
+  - Changes for QR Code reading.
+        -  When MC receives a ##g:7 packet, it parses for the QR Code and then saves the next image file as "QR_<timestamp>.jpg".
+        -  It also saves in the same directory an ASCII file named "QR_<timestamp>.txt" whose contents are just the the QR Code value.
+        - So, the two files are named the same except for the extension.
+  - Minimum supported BFin firmware : test64 or above.
+  
+* [Version v5.3.4]
+  - Added the Camera and Movie features.
+        - Show Image must be on for these two features to be available.
+  - Minimum supported BFin firmware : test64 or above.
+  
+* [Version v5.3.3]
+  - In "SRV_Write Sensor Commands.vi", change delay from 1ms to 5ms because Bfin misses some sensor commands (don't use this version as there will be a FW fix instead. So, go back to 5.3.2).
+  - Minimum supported BFin firmware : test64 or above.
+  
 * [Version v5.3.2]
   - Changed "Run" Title Bar from SRV MainController (old Surveyor naming convention) to RCM MainController (new E3 naming convention)
-  - Minimum supported BFin firmware : test60 or above
+  - Minimum supported BFin firmware : test64 or above.
   
 * [Version v5.3.1]
   - Changed "Open" Title Bar from SRV MainController (old Surveyor naming convention) to RCM MainController (new E3 naming convention)
-  - Minimum supported BFin firmware : test60 or above
+  - Minimum supported BFin firmware : test60 or above.
   
 * [Version v5.3.0]
   - Adding the ability to work with new sensors (IMU and Thermal)
@@ -38,7 +61,7 @@ Version History
       - C:\MainController-master\SRV VIs\OpCodes\
       - C:\MainController-master\SRV VIs\SubVIs\SRV\
 
-* [Version 4.3.3](https://github.com/Engineering-3/MainController) Initial public release, version 4.3.3.  
+* [Version 4.3.3] Initial public release, version 4.3.3.  
 
 
 License Information
